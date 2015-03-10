@@ -9,3 +9,23 @@ github_username: codoks
 
 # Build settings
 markdown: kramdown
+
+#Authors
+authors:
+  jltafarel:
+    name: Jose Luiz Tafarel
+    display_name: Tafarel
+    bio: Tafarel é graduando em sistemas de informação pela Universidade Paranaense (UNIPAR) e confundador da Codoks. Tem experiência com Ruby on Rails e Android.
+    gravatar: 6d422e42d26918052106c661cd19e9b7
+    email: tafarel@codoks.com
+    web: http://jtafarel.github.io
+    twitter: jltafarel
+    github: jltafarel
+  lucas:
+    name: Lucas Rafagnin
+    display_name: Rafagnin
+    gravatar: 12e480a364a5c19214f99b4dfe9a11d5
+    email: jorgen@company.com
+    web: http://company.com
+    twitter: company
+    github: jorgenm

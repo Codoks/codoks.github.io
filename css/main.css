@@ -2381,7 +2381,6 @@ ul.sidebar-gallery {
 
 .post_reply {
   margin-left: 10px;
-  margin-top: 45px;
 }
 
 .post_reply img {
@@ -2417,16 +2416,12 @@ ul.sidebar-gallery {
   width: 30px;
 }
 
-.post_reply ul li a i.fa-facebook {
-  background: #0182C4;
+.post_reply ul li a i.fa-github {
+  background: none repeat scroll 0 0 #000000;
 }
 
 .post_reply ul li a i.fa-twitter {
   background: none repeat scroll 0 0 #3FC1FE;
-}
-
-.post_reply ul li a i.fa-google-plus{
- background: none repeat scroll 0 0 #D34836;
 }
 
 .post_reply ul li a i:hover{
