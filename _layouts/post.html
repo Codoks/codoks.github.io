@@ -1,15 +1,90 @@
 ---
 layout: default
 ---
-<div class="post">
+<section id="blog" class="container">
+  <div class="center">
+    <h2>Codoks Blog</h2>
+    <p class="lead">Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
+  </div>
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
+  <div class="blog">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="blog-item">
+          <div class="row">
+            <div class="col-xs-12 col-sm-2 text-center">
+              <div class="entry-meta">
+                <span id="publish_date">{{ page.date  | date: "%-d/%m/%Y"  }}</span>
+                <span><i class="fa fa-user"></i> <a href="/{{page.author}}">{{page.author}}</a></span>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-10 blog-content">
+              <h2>{{page.title}}</h2>
+              {{content}}
+            </div>
+          </div>
+        </div><!--/.blog-item-->
 
-  <article class="post-content">
-    {{ content }}
-  </article>
+        <div class="media reply_section">
+          <div class="pull-left post_reply text-center">
+            <a href="#"><img src="images/blog/boy.png" class="img-circle" alt="" /></a>
+            <ul>
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-google-plus"></i> </a></li>
+            </ul>
+          </div>
+          <div class="media-body post_reply_content">
+            <h3>Antone L. Huges</h3>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariaturp</p>
+            <p><strong>Web:</strong> <a href="http://www.shapebootstrap.net">www.shapebootstrap.net</a></p>
+          </div>
+        </div>
 
-</div>
+        <h1 id="comments_title">5 Comments</h1>
+        <div class="media comment_section">
+          <div class="pull-left post_comments">
+            <a href="#"><img src="images/blog/girl.png" class="img-circle" alt="" /></a>
+          </div>
+          <div class="media-body post_reply_comments">
+            <h3>Marsh</h3>
+            <h4>NOVEMBER 9, 2013 AT 9:15 PM</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+            <a href="#">Reply</a>
+          </div>
+        </div>
+        <div class="media comment_section">
+          <div class="pull-left post_comments">
+            <a href="#"><img src="images/blog/boy2.png" class="img-circle" alt="" /></a>
+          </div>
+          <div class="media-body post_reply_comments">
+            <h3>Marsh</h3>
+            <h4>NOVEMBER 9, 2013 AT 9:15 PM</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+            <a href="#">Reply</a>
+          </div>
+        </div>
+        <div class="media comment_section">
+          <div class="pull-left post_comments">
+            <a href="#"><img src="images/blog/boy3.png" class="img-circle" alt="" /></a>
+          </div>
+          <div class="media-body post_reply_comments">
+            <h3>Marsh</h3>
+            <h4>NOVEMBER 9, 2013 AT 9:15 PM</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+            <a href="#">Reply</a>
+          </div>
+        </div>
+
+
+        <div id="contact-page clearfix">
+          <div class="status alert alert-success" style="display: none"></div>
+          <div class="message_heading">
+            <h4>Leave a Replay</h4>
+            <p>Make sure you enter the(*)required information where indicate.HTML code is not allowed</p>
+          </div>
+        </div><!--/#contact-page-->
+      </div><!--/.col-md-8-->
+    </div><!--/.row-->
+  </div><!--/.blog-->
+</section><!--/#blog-->
