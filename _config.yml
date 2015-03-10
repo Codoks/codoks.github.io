@@ -1,0 +1,11 @@
+# Site settings
+title: Codoks
+email: contato@codoks.com
+description: Somos uma equipe de desenvolvedores encantados por novas tecnologias e em busca de projetos inovadores.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://codoks.com" # the base hostname & protocol for your site
+twitter_username: codoks.tec
+github_username: codoks
+
+# Build settings
+markdown: kramdown

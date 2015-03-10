@@ -1,0 +1,78 @@
+---
+layout: default
+---
+
+<section id="contact-info">
+  <div class="center">
+    <h2>Onde nos encontrar</h2>
+    <p class="lead">Faça-nos uma visita!</p>
+  </div>
+  <div class="gmap-area">
+    <div class="container">
+
+      <div class="col-sm-7 map-content">
+        <ul class="row">
+          <li class="col-sm-6">
+            <address>
+              <h5>Invent.to Coworking</h5>
+              <p>
+                Rua União da Vitória, 407, Vila Nova<br>
+                Francisco Beltrão - PR, 85605-040.
+              </p>
+              <p>
+                Telefone: (46) 3057-2020 <br>
+                Email: contato@codoks.com
+              </p>
+            </address>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</section>  <!--/gmap_area -->
+
+<section id="contact-page">
+  <div class="container">
+    <div class="center">
+      <h2>Fale com a gente!</h2>
+      <p class="lead">Dúvidas? Sugestões? Quer tornar sua ideia uma realidade?</p>
+    </div>
+    <div class="row contact-wrap">
+      <div class="status alert alert-success" style="display: none"></div>
+      <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php">
+        <div class="col-sm-5 col-sm-offset-1">
+          <div class="form-group">
+            <label>Nome *</label>
+            <input type="text" name="name" class="form-control" required="required">
+          </div>
+          <div class="form-group">
+            <label>Email *</label>
+            <input type="email" name="email" class="form-control" required="required">
+          </div>
+          <div class="form-group">
+            <label>Telefone</label>
+            <input type="number" class="form-control">
+          </div>
+          <div class="form-group">
+            <label>Empresa</label>
+            <input type="text" class="form-control">
+          </div>
+        </div>
+        <div class="col-sm-5">
+          <div class="form-group">
+            <label>Assunto *</label>
+            <input type="text" name="subject" class="form-control" required="required">
+          </div>
+          <div class="form-group">
+            <label>Mensagem *</label>
+            <textarea name="message" id="message" required="required" class="form-control" rows="8"></textarea>
+          </div>
+          <div class="form-group">
+            <button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Enviar contato</button>
+          </div>
+        </div>
+      </form>
+    </div><!--/.row-->
+  </div><!--/.container-->
+</section><!--/#contact-page-->
