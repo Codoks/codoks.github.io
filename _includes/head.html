@@ -1,9 +1,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
+  <meta name="description" content="{{site.description}}">
   <meta name="author" content="codoks.com">
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+  <meta property="og:title" content="{% if page.ogtitle %}{{ page.ogtitle }}{% else %}{{ site.ogtitle }}{% endif %}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+  <meta property="og:image" content="{% if page.ogimage %}{{ site.url }}{{ page.ogimage }}{% else %}{{ site.url}}{{ site.ogimage }}{% endif %}" />
+  <meta property="og:description" content="{% if page.ogdescription %}{{ page.ogdescription }}{% else %}{{ site.ogdescription }}{% endif %}" />
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />

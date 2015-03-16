@@ -1,11 +1,15 @@
 # Site settings
-title: Codoks
+title: Codoks | Desenvolvimento mobile e web aliados à inovação.
 email: contato@codoks.com
-description: Somos uma equipe de desenvolvedores encantados por novas tecnologias e em busca de projetos inovadores.
+description: Somos uma empresa de software, focada em inovação com o uso de tecnologias móveis e web.
+keywords: desenvolvimento, software, mobile, web, internet, coisas, inovação
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://codoks.com" # the base hostname & protocol for your site
+url: "http://preview.codoks.com" # the base hostname & protocol for your site
 twitter_username: codoks.tec
 github_username: codoks
+ogdescription: Somos uma empresa de software, focada em inovação com o uso de tecnologias móveis e web.
+ogtitle: Codoks | Desenvolvimento mobile e web aliados à inovação.
+ogimage: /images/logo_base.png
 
 # Build settings
 markdown: kramdown
