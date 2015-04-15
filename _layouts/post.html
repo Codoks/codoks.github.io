@@ -3,11 +3,6 @@ layout: default
 ---
 {% assign author = site.authors[page.author] %}
 <section id="blog" class="container">
-  <div class="center">
-    <h2>Codoks Blog</h2>
-    <p class="lead">Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
-  </div>
-
   <div class="blog">
     <div class="row">
       <div class="col-md-12">
@@ -21,8 +16,11 @@ layout: default
             </div>
             <div class="col-xs-12 col-sm-10 blog-content">
               <h2>{{page.title}}</h2>
+              <h4>{{page.subtitle}}</h4>
+              <br>
               {{content}}
             </div>
+
           </div>
         </div><!--/.blog-item-->
 
@@ -43,7 +41,19 @@ layout: default
 
         <h1 id="comments_title">Comments</h1>
         <div class="media comment_section">
-          <div class="fb-comments" data-href="{{page.url}}" data-numposts="5" data-colorscheme="light"></div>
+          <div id="disqus_thread"></div>
+          <script type="text/javascript">
+          /* * * CONFIGURATION VARIABLES * * */
+          var disqus_shortname = 'codoksblog';
+
+          /* * * DON'T EDIT BELOW THIS LINE * * */
+          (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+          </script>
+          <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
         </div>
       </div><!--/.col-md-8-->
     </div><!--/.row-->

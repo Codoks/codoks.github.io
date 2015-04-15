@@ -4,7 +4,7 @@ email: contato@codoks.com
 description: Somos uma empresa de software, focada em inovação com o uso de tecnologias móveis e web.
 keywords: desenvolvimento, software, mobile, web, internet, coisas, inovação
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://preview.codoks.com" # the base hostname & protocol for your site
+url: "http://codoks.com" # the base hostname & protocol for your site
 twitter_username: codoks.tec
 github_username: codoks
 ogdescription: Somos uma empresa de software, focada em inovação com o uso de tecnologias móveis e web.
@@ -19,7 +19,7 @@ authors:
   jltafarel:
     name: Jose Luiz Tafarel
     display_name: Tafarel
-    bio: Tafarel é graduando em sistemas de informação pela Universidade Paranaense (UNIPAR) e confundador da Codoks. Tem experiência com Ruby on Rails e Android.
+    bio: Tafarel é graduando em sistemas de informação pela Universidade Paranaense (UNIPAR) e cofundador da Codoks. Tem experiência com Ruby on Rails e Android.
     gravatar: 6d422e42d26918052106c661cd19e9b7
     email: tafarel@codoks.com
     web: http://jtafarel.github.io
@@ -29,7 +29,6 @@ authors:
     name: Lucas Rafagnin
     display_name: Rafagnin
     gravatar: 12e480a364a5c19214f99b4dfe9a11d5
-    email: jorgen@company.com
-    web: http://company.com
-    twitter: company
-    github: jorgenm
+    email: lucas@codoks.com
+    twitter: lucasrafagnin_
+    github:
